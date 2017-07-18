@@ -1,0 +1,52 @@
+*{
+  background-color: 	#ADD8E6;
+}
+.img1{
+  height: 200px;
+  width: 400px;
+  border: 8px solid	#ADD8E6;
+  margin-left: auto;
+  margin-top: auto;
+}
+#img2{
+  height: auto;
+  width: auto;
+  border: 8px dashed #ADD8E6;
+}
+p, h1, h2, h3, h4, h5, h6{
+  color: 	#696969;
+}
+ul{
+  list-style-type: square;
+}
+ol{
+  list-style-type: circle;
+}
+/*ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    overflow: hidden;
+    background-color: #ADD8E6;
+}*/
+li{
+    display: inline;
+    border-right: 2px solid black;
+  /*  text-decoration: none;
+    float: left;*/
+}
+/*li a{
+.active{
+  background-color: #696969;
+}*/
+a{
+  display: inline;
+  padding 8px;
+  background-color: #ADD8E6;
+}
+/* Change the link color on hover */
+li a:hover{
+    background-color: #8FBC8F;
+    color: white;
+}
